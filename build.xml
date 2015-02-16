@@ -1,0 +1,18 @@
+Buildfile: build.xml
+
+clean:
+
+compile:
+    [mkdir] Created dir: C:\...\build\classes
+    [javac] Compiling 1 source file to C:\...\build\classes
+
+jar:
+    [mkdir] Created dir: C:\...\build\jar
+      [jar] Building jar: C:\...\build\jar\HelloWorld.jar
+
+run:
+     [java] Hello World
+
+main:
+
+BUILD SUCCESSFUL
