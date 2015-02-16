@@ -1,0 +1,31 @@
+En este documento se indican algunas ayudas para la utilización de la aplicación.
+También se indicarán las mejoras realizadas.
+
+INSTRUCCIONES:
+En primer lugar, indicar que se ha añadido la instrucción ayuda, para informar al usuario de las instrucciones que puede utilizar.
+
+Como se indica en el documento del problema, se han añadido las instrucciones para crear, listar, eliminar y cerrar.
+
+Al utilizar la instrucción "crear" debemos indicar también si se trata de un cliente, música o una venta.
+En función de lo que se trate se nos pedirá que introduzcamos una serie de datos para completar la creación del cliente, la música o la venta.
+Indicar que los decimales deben introducirse con "." en lugar de con ",".
+
+La instrucción "listar" se utilizará de forma similar a "crear", indicando si se trata de un cliente, música o una venta.
+Esta instrucción nos permitirá listar todos los clientes, músicas (en sus respectivos formatos) o ventas que se hayan creado.
+
+La instrucción "eliminar" deberá seguirse de las palabras "cliente", "música" o "venta" y el código correspondiente a un elemento de ese tipo.
+El código indicará el elemento que debe ser eliminado.
+
+La instrucción "modificar" se utilizará seguida de las palabras cliente o música y el código de uno de esos elementos para modificar los datos de dicho elemento.
+
+Para finalizar, la instrucción "cerrar" finalizará la aplicación.
+
+MEJORAS:
+Una de las mejoras consiste en añadir una instrucción "ayuda" que indique al usuario para qué sirve cada instrucción.
+
+Otra de las mejoras introducidas es incluir el número de unidades existentes en la tienda para el producto.
+Unido a esto, si un usuario trata de vendar un elemento de tipo música que no tiene existencias a un cliente, se informará al usuario y no se realizará la venta.
+
+A raíz de esta mejora, se ha incluido la instrucción "existencias" que permitirá modificar las existencias de productos de tipo música.
+Para utilizarlo introduciremos la palabra "existencias" seguida por el código del elemento que queramos modificar y el número de existencias que queramos añadir.
+(Si ya hay existencias anteriormente se sumarán a las indicadas, de forma que si tenemos 3 unidades de música con el código 34 e indicamos "existencias 34 5", quedará un total de 8 unidades)

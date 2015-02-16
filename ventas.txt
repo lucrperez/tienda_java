@@ -1,0 +1,1 @@
+Venta [musica=Musica [titulo=The Dark Side of the Moon, artista=Pink Floyd, precio=6.75, codigoMusica=1], cliente=Cliente [nombre=Luis, apellidos=Cruz, edad=28, codigoCliente=1], codigoVenta=1]
